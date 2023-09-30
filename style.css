@@ -1,0 +1,161 @@
+/* 
+    FONTS:
+    font-family: 'Cookie', cursive;
+    
+    font-family: 'Sacramento', cursive;
+    
+    font-family: 'Montserrat', sans-serif;
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: FFFADD;
+}
+
+.header {
+    background-color: #FFCC70;
+    padding: 10px;
+    text-align: center;
+}
+
+.h1 {
+    margin: 15% auto;
+    color: #FFFADD;
+    font-family: 'Cookie', cursive;
+    font-size: 75px;
+}
+
+.h1-second {
+    margin-bottom: 5%;
+    color: #FFFADD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.profil {
+    width: 35%;
+    border-radius: 50%;
+}
+
+.content1 {
+    width: 40%;
+    margin: 5% auto;
+    text-align: center;
+}
+
+.hello {
+    color: #FFCC70;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    border-top: dotted #FFCC70 5px;
+    width: 10%;
+}
+
+.web-dev {
+    text-decoration: underline 2px;
+}
+
+/* Konten2 */
+
+.hobiku {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.child-content2 {
+    width: 50%;
+    margin: auto auto 5% auto;
+    display: grid;
+    grid-template-areas:
+        "foto1 deskripsi1"
+        "foto2 deskripsi2";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 5px;
+}
+
+
+.foto1 {
+    grid-area: foto1;
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.deskripsi1 {
+    grid-area: deskripsi1;
+}
+
+.foto2 {
+    grid-area: foto2;
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.deskripsi2 {
+    grid-area: deskripsi2;
+}
+
+/* Akhir konten 2 */
+
+/* Konten 3 */
+
+.content3 {
+    margin: 5% auto;
+}
+
+.class-a {
+    display: flex;
+    width: 60%;
+    margin: 5% auto;
+    justify-content: space-around;
+}
+
+.class-a > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.class-a > a:hover {
+    color: #FFCC70;
+}
+
+/* Akhir Konten 3 */
+
+/* Kontent 4 */
+
+.content4 {
+    background-color: #FFCC70;
+    padding: 15px 0 20px 0;
+}
+
+.class-a2 {
+    width: 40%;
+    display: flex;
+    margin: 3% auto;
+    justify-content: center;
+    gap: 10px;
+}
+
+.class-a2 > a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #f7a919;
+}
+
+.class-a2 > a:hover {
+    color: #FFFADD;
+}
+
+footer {
+    text-align: center;
+    color: #FFFADD;
+}
