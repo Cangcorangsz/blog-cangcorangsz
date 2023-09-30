@@ -33,6 +33,8 @@ body {
     font-size: 35px;
 }
 
+/* Konten 1 */
+
 .profil {
     width: 35%;
     border-radius: 50%;
@@ -43,6 +45,8 @@ body {
     margin: 5% auto;
     text-align: center;
 }
+
+/* Akhir dari konten 1 */
 
 .hello {
     color: #FFCC70;
@@ -61,7 +65,7 @@ hr {
     text-decoration: underline 2px;
 }
 
-/* Konten2 */
+/* Konten 2 */
 
 .hobiku {
     text-align: center;
@@ -118,13 +122,13 @@ hr {
     justify-content: space-around;
 }
 
-.class-a > a {
+.class-a>a {
     font-size: 20px;
     text-decoration: none;
     color: black;
 }
 
-.class-a > a:hover {
+.class-a>a:hover {
     color: #FFCC70;
 }
 
@@ -145,17 +149,205 @@ hr {
     gap: 10px;
 }
 
-.class-a2 > a {
+.class-a2>a {
     font-size: 15px;
     text-decoration: none;
     color: #f7a919;
 }
 
-.class-a2 > a:hover {
+.class-a2>a:hover {
     color: #FFFADD;
 }
 
 footer {
     text-align: center;
     color: #FFFADD;
+}
+
+/* Masuk Responsive */
+
+@media (max-width: 426px) {
+
+    .header {
+        background-color: #FFCC70;
+        text-align: center;
+    }
+
+    .h1 {
+        margin: 10% auto 10% auto;
+        color: #FFFADD;
+        font-family: 'Cookie', cursive;
+        font-size: 75px;
+    }
+
+    .h1-second {
+        margin-bottom: 5%;
+        color: #FFFADD;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+
+    /* Konten 1 */
+
+    .profil {
+        width: 55%;
+        border-radius: 50%;
+    }
+
+    .content1 {
+        width: 90%;
+        margin: 5% auto;
+        text-align: center;
+    }
+
+    .paragraf {
+        font-size: 95%;
+    }
+
+    /* Akhir dari konten 1 */
+
+    .hello {
+        color: #FFCC70;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin: 2%;
+    }
+
+    .paragraf {
+        padding: auto;
+    }
+
+    /* Konten 2 */
+
+    .hobiku {
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .child-content2 {
+        width: 80%;
+        margin: auto auto 5% auto;
+        display: grid;
+        grid-template-areas:
+            "foto1"
+            "deskripsi1"
+            "foto2"
+            "deskripsi2";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap: 5px;
+    }
+
+
+    .foto1 {
+        grid-area: foto1;
+        width: 45%;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .deskripsi1 {
+        grid-area: deskripsi1;
+    }
+
+    .foto2 {
+        grid-area: foto2;
+        width: 45%;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    .deskripsi2 {
+        grid-area: deskripsi2;
+    }
+
+    /* Akhir dari konten 2 */
+
+    /* Konten 3 */
+
+    .content3 {
+        margin: 5% auto;
+    }
+
+    .class-a {
+        display: flex;
+        width: 60%;
+        margin: 5% auto;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .class-a>a {
+        font-size: 20px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .class-a>a:hover {
+        color: #FFCC70;
+    }
+
+    /* Akhir Konten 3 */
+
+    /* Kontent 4 */
+
+    .content4 {
+        background-color: #FFCC70;
+        padding: 15px 0 20px 0;
+    }
+
+    .class-a2 {
+        width: 40%;
+        display: flex;
+        margin: 3% auto;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .class-a2>a {
+        font-size: 20px;
+        text-decoration: none;
+        color: #f7a919;
+    }
+
+    .class-a2>a:hover {
+        color: #FFFADD;
+    }
+
+    footer {
+        text-align: center;
+        color: #FFFADD;
+    }
+
+}
+
+@media (min-width: 2559px) {
+
+    .paragraf {
+        font-size: 200%;
+    }
+
+    .class-a>a {
+        font-size: 200%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .class-a2 {
+        width: 40%;
+        display: flex;
+        margin: 3% auto;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .class-a2>a {
+        font-size: 190%;
+        text-decoration: none;
+        color: #f7a919;
+    }
 }
